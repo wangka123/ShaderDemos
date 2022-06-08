@@ -7,7 +7,9 @@ export default class NewClass extends cc.Component {
 
     @property(cc.Slider)
     cornerSlider: cc.Slider = null;
+ 
 
+    
     program: cc.GLProgram;
     edge = 0.05;
 
